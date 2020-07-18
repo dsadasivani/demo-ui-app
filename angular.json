@@ -23,10 +23,12 @@
               "src/favicon.ico",
               "src/assets"
             ],
-            "styles": [
+            "styles": ["node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/bootstrap/dist/js/bootstrap.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -119,6 +121,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "icc-ui-app"
+    }
+  },
+  "defaultProject": "icc-ui-app",
+  "cli": {
+    "analytics": "e963b67f-8189-4baf-8339-8b17dfdee978"
+  }
 }
